@@ -62,14 +62,20 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ME0-9U-Wft"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Posts" id="kcz-Xb-dsE"/>
+                    <navigationItem key="navigationItem" title="Posts" id="kcz-Xb-dsE">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Vd3-Qf-f5h">
+                            <connections>
+                                <action selector="adButtonTapped:" destination="Jhw-Bi-epR" id="8Ng-dn-sJP"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="sCN-qh-Q8e" id="rXw-dr-Pu1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PvL-w2-1bG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1300" y="13"/>
+            <point key="canvasLocation" x="1229" y="13"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="7oF-Bv-xbG">
